@@ -12,7 +12,7 @@ public class RestAssuredTest {
     @Test
     public void testAddOperation() {
         // Set the base URI of the REST API
-        RestAssured.baseURI = "http://localhost:80";
+        RestAssured.baseURI = "http://playground1.azurewebsites.net";
 
         // Create a JSON payload
         String jsonPayload = "{"
@@ -37,7 +37,7 @@ public class RestAssuredTest {
     @Test
     public void testSubtractOperation() {
         // Set the base URI of the REST API
-        RestAssured.baseURI = "http://localhost:80";
+        RestAssured.baseURI = "http://playground1.azurewebsites.nett";
 
         // Create a JSON payload
         String jsonPayload = "{"
@@ -62,7 +62,7 @@ public class RestAssuredTest {
     @Test
     public void testDivisiontOperation() {
         // Set the base URI of the REST API
-        RestAssured.baseURI = "http://localhost:80";
+        RestAssured.baseURI = "http://playground1.azurewebsites.net";
 
         // Create a JSON payload
         String jsonPayload = "{"
