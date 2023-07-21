@@ -37,7 +37,7 @@ public class RestAssuredTest {
     @Test
     public void testSubtractOperation() {
         // Set the base URI of the REST API
-        RestAssured.baseURI = "http://playground1.azurewebsites.nett";
+        RestAssured.baseURI = "http://playground1.azurewebsites.net";
 
         // Create a JSON payload
         String jsonPayload = "{"
